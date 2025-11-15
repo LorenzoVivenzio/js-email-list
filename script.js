@@ -24,7 +24,7 @@ axios
                     const emailStamp = document.createElement("ul")
                     emailStamp.innerHTML =
                         `<ul class="m-3 p-3 text-white bg-info bg-opacity-10 border border-white border-start-0 rounded-end">
-                           <li>${email} </li>
+                           <li class = "list-group-item">${email} </li>
                          </ul>`;
                     document.body.appendChild(emailStamp);
 
